@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>babyquiz</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <h><strong>คำถามกวนๆ</strong></h>
-    <p>
-      <br />เพศของคุณคือ:
-      <input type="radio" id="male" name="gender" value="ชาย" />
-      <label for="male">ชาย</label>
-      <input type="radio" id="female" name="gender" value="หญิง" />
-      <label for="female">หญิง</label>
-      <input type="radio" id="notsure" name="gender" value="ไม่แน่ใจ" />
-      <label for="notsure">ไม่แน่ใจ</label>
-    </p>
-    <p>คุณอายุเท่าไหร่:</p>
+    <form>
+        <br />
+        <label for="gender">เพศของคุณคือ:</label>
+        <input type="radio" id="male" name="gender" value="ชาย" />
+        <label for="male">ชาย</label>
+        <input type="radio" id="female" name="gender" value="หญิง" />
+        <label for="female">หญิง</label>
+        <input type="radio" id="notsure" name="gender" value="ไม่แน่ใจ" />
+        <label for="notsure">ไม่แน่ใจ</label>
+    </form>
+    <form>
+        <label for="fname">คุณอายุเท่าไหร่:</label><input type="text" id="age" name="age" /><br />
+    </form>
+</body>
 
-
-  </body>
 </html>
